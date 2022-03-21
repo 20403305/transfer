@@ -1,0 +1,115 @@
+{
+    "StreamConfig": {},
+    "State": {
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "RemovalInProgress": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 137,
+        "Error": "",
+        "StartedAt": "2022-03-18T03:27:50.13532596Z",
+        "FinishedAt": "2022-03-18T03:30:51.709500867Z",
+        "Health": null
+    },
+    "ID": "1005b5e2ae0f3545a4c8251f2aebbd9e88f1c51577d254f1d2cfff9f64e54f1e",
+    "Created": "2022-03-12T16:15:06.887205968Z",
+    "Managed": false,
+    "Path": "/bin/bash",
+    "Args": [],
+    "Config": {
+        "Hostname": "1005b5e2ae0f",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "ExposedPorts": {
+            "5005/tcp": {},
+            "8001/tcp": {}
+        },
+        "Tty": true,
+        "OpenStdin": true,
+        "StdinOnce": false,
+        "Env": null,
+        "Cmd": [
+            "/bin/bash"
+        ],
+        "Image": "centos:v1",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": {}
+    },
+    "Image": "sha256:f47a13e4c27e9397e5c118a2c551f81b3c09c14c254dd9c492270139f241ed3f",
+    "NetworkSettings": {
+        "Bridge": "",
+        "SandboxID": "90db79335ca7317b97eda482824692357cccc71eb2824daf482e3c6972fe9630",
+        "HairpinMode": false,
+        "LinkLocalIPv6Address": "",
+        "LinkLocalIPv6PrefixLen": 0,
+        "Networks": {
+            "bridge": {
+                "IPAMConfig": null,
+                "Links": null,
+                "Aliases": null,
+                "NetworkID": "464f602847c20fd913a0dc4b5a3d4b4708e4c09537bb38dbd55e1cc4817b5075",
+                "EndpointID": "",
+                "Gateway": "",
+                "IPAddress": "",
+                "IPPrefixLen": 0,
+                "IPv6Gateway": "",
+                "GlobalIPv6Address": "",
+                "GlobalIPv6PrefixLen": 0,
+                "MacAddress": "",
+                "DriverOpts": null,
+                "IPAMOperational": false
+            }
+        },
+        "Service": null,
+        "Ports": {
+            "5005/tcp": [
+                {
+                    "HostIp": "0.0.0.0",
+                    "HostPort": "5005"
+                }
+            ],
+            "8001/tcp": [
+                {
+                    "HostIp": "0.0.0.0",
+                    "HostPort": "8001"
+                }
+            ]
+        },
+        "SandboxKey": "/var/run/docker/netns/90db79335ca7",
+        "SecondaryIPAddresses": null,
+        "SecondaryIPv6Addresses": null,
+        "IsAnonymousEndpoint": false,
+        "HasSwarmEndpoint": false
+    },
+    "LogPath": "/var/lib/docker/containers/1005b5e2ae0f3545a4c8251f2aebbd9e88f1c51577d254f1d2cfff9f64e54f1e/1005b5e2ae0f3545a4c8251f2aebbd9e88f1c51577d254f1d2cfff9f64e54f1e-json.log",
+    "Name": "/centos-test2",
+    "Driver": "overlay2",
+    "OS": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "RestartCount": 0,
+    "HasBeenStartedBefore": true,
+    "HasBeenManuallyStopped": true,
+    "MountPoints": {},
+    "SecretReferences": null,
+    "ConfigReferences": null,
+    "AppArmorProfile": "docker-default",
+    "HostnamePath": "/var/lib/docker/containers/1005b5e2ae0f3545a4c8251f2aebbd9e88f1c51577d254f1d2cfff9f64e54f1e/hostname",
+    "HostsPath": "/var/lib/docker/containers/1005b5e2ae0f3545a4c8251f2aebbd9e88f1c51577d254f1d2cfff9f64e54f1e/hosts",
+    "ShmPath": "",
+    "ResolvConfPath": "/var/lib/docker/containers/1005b5e2ae0f3545a4c8251f2aebbd9e88f1c51577d254f1d2cfff9f64e54f1e/resolv.conf",
+    "SeccompProfile": "",
+    "NoNewPrivileges": false,
+    "LocalLogCacheMeta": {
+        "HaveNotifyEnabled": false
+    }
+}
