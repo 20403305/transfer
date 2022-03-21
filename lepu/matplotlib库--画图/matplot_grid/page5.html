@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+        {% for key, value in extra_info.ecg_event_list.items() %}
+    <div class="page">
+        <div class="header">
+            <div class="headerLeft logo">
+                <img src="../../static/lepu_logo.png" alt="">
+            </div>
+            <div class="headerRight">
+                <div class="content">
+                    <div class="infoTitle grayWords">姓名</div>
+                    <div class="infoContent blackWords">{{ data.baseInfo.name }}</div>
+                </div>
+                <div class="content">
+                    <div class="infoTitle grayWords">记录时间</div>
+                    <div class="infoContent blackWords">{{ extra_info.createTime.strftime('%Y-%m-%d') }}</div>
+                </div>
+                <div class="content">
+                    <div class="infoTitle grayWords">页码</div>
+                    <div class="infoContent blackWords">{{ key+5 }}/{{ extra_info.total_page }}</div>
+                </div>
+            </div>
+        </div>
+        <hr class="headBoundary"/>
+        <div class="blockTitle subTitle blackWords">
+            <img src="../../static/ecgIcon.png" alt="">
+            <span>心电片段</span>
+        </div>
+        <hr class="contentBoundary"/>
+        {% for d in value %}
+        <div class="block">
+            <div class="blockHead">
+                <div class="subTitle blackWords icon blockHeadSon">
+                    <img src="../../static/ecgIcon2.png" alt="">
+                    <span>{{ d.name  }} {% if d.hr %}({{ d.hr  }}bpm) {% endif %}</span>
+                </div>
+                <div class="headFont blackWords blockHeadSon">
+                    <span>时间：</span>
+                    <span>{{ d.eventTime  }}</span>
+                </div>
+                <div class="blockHeadSon lastSon">
+                    <div class="headFont blackWords">
+                        <span>增益：</span>
+                        <span>10mm/mV</span>
+                    </div>
+                    <div class="headFont blackWords" style="position: absolute; right: 0;">
+                        <span>走速：</span>
+                        <span>25mm/s</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ecg">
+                <img src='data:image/png;base64,{#{ d.img_data  }#}' style="width: 875px; height: 350px; ">
+            </div>
+        </div>
+        {% endfor %}
+        <div class="footPrint infoTitle blackWords">报告ID {#{ extra_info.report_id }#}</div>
+    </div>
+        {% endfor %}
+</div>
+</body>
+
+<style>
+    .container {
+        width: 875px;
+        font-family: "SourceHanSansCN-Regular", serif !important;
+        position: relative;
+        margin: auto;
+    }
+
+    .page {
+        width: 875px;
+        height: 1320px;
+        /* margin: auto; */
+        position: relative;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .header {
+        display: -webkit-box;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .logo {
+        max-height: 40px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .logo img {
+        object-fit: contain;
+        max-height: 40px;
+    }
+
+    .headerLeft {
+        display: -webkit-box;
+        display: flex;
+    }
+
+    .headerRight {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: -webkit-box;
+        display: flex;
+        line-height: 40px !important;
+    }
+
+    .headerRight .content {
+        margin-left: 30px;
+    }
+
+    .subTitle {
+        font-size: 20px;
+        line-height: 20px;
+        font-family: "SourceHanSansCN-Medium", serif !important;
+    }
+
+    .content {
+        display: -webkit-box;
+        display: flex;
+        position: relative;
+    }
+
+    .infoTitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 14px;
+    }
+
+    .infoContent {
+        font-size: 18px;
+        line-height: 20px;
+        font-family: "SourceHanSansCN-Medium", serif !important;
+    }
+
+    .blackWords {
+        color: #354052;
+    }
+
+    .grayWords {
+        color: #505B68;
+    }
+
+    .headBoundary {
+        border-color: #89847F;
+        margin-top: 6px;
+    }
+
+    .contentBoundary {
+        border-color: #C8C8C8;
+        margin-top: 6px;
+    }
+
+    .footPrint {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+
+    .icon {
+        align-items: center;
+    }
+
+    .icon img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        margin-right: 5px;
+    }
+
+    .blockHead {
+        position: relative;
+        display: -webkit-box;
+        display: flex;
+    }
+
+    .blockHeadSon {
+        width: 32%;
+        display: -webkit-box;
+        display: flex;
+    }
+
+    .lastSon {
+        width: 36%;
+        position: absolute;
+        right: 0;
+    }
+
+    .headFont {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .ecg {
+        width: 100%;
+    }
+
+    .ecg img {
+        width: 100%;
+        object-fit: contain;
+        text-align: center;
+    }
+
+    .blockTitle {
+        display: -webkit-box;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .blockTitle > span {
+        vertical-align: top;
+    }
+
+    .blockTitle img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        margin-right: 5px;
+    }
+
+    @font-face {
+        font-family: 'SourceHanSansCN-Regular';
+        src: url('../../static/SSHCRegular.otf') format("opentype");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'SourceHanSansCN-Medium';
+        src: url('../../static/SSHCMedium.otf') format("opentype");
+        font-weight: normal;
+        font-style: normal;
+    }
+</style>
+</html>
