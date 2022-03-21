@@ -1,0 +1,37 @@
+centos 下载地址：
+https://ftp.riken.jp/Linux/centos/7/isos/x86_64/
+
+
+1. 下载ssh  --- https://phoenixnap.com/kb/how-to-enable-ssh-centos-7
+yum install -y openssl openssh-server
+
+2. 下载git --- https://computingforgeeks.com/how-to-install-latest-version-of-git-git-2-x-on-centos-7/
+yum -y install https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm
+yum install -y git
+
+
+3. 安装python3 --- https://computingforgeeks.com/install-latest-python-on-centos-linux/
+yum -y install epel-release
+yum -y update
+reboot
+yum groupinstall "Development Tools" -y
+yum install openssl-devel libffi-devel bzip2-devel -y
+yum install wget -y
+wget https://www.python.org/ftp/python/3.9.10/Python-3.9.10.tgz
+tar xvf Python-3.9.10.tgz
+cd Python-3.9*/
+./configure --enable-optimizations
+make altinstall
+/usr/local/bin/python3.9 -m pip install --upgrade pip
+
+
+
+4. ai项目mysql 依赖   https://www.whcsrl.com/blog/1012409
+yum install -y mysql-devel
+##yum install -y mysql-devel gcc gcc-devel python-devel
+##yum install -y mysql-devel gcc gcc-devel python3-devel
+
+5. pdfkit 依赖 wkhtmltopdf 安装 --- https://blog.csdn.net/weixin_35682224/article/details/116830693
+yum install wkhtmltopdf
+##wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox-0.12.6-1.centos7.x86_64.rpm
+##yum localinstall wkhtmltox-0.12.6-1.centos7.x86_64.rpm

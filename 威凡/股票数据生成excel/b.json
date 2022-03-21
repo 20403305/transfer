@@ -1,0 +1,425 @@
+{
+    "code": 20000,
+    "message": "OK",
+    "data": {
+        "allow_comment": true,
+        "avg_pcp": 0.032675603380645166,
+        "core_avg_pcp": 0.03439581328695652,
+        "core_stocks_count": 23,
+        "create_name": "李亚伟",
+        "desc": "“新冠疫情流感化”趋势下，口服新冠药物地位愈发重要，国产新冠药物已有多个进入临床试验，有望成为抗疫“新利器”",
+        "display_after_at": 0,
+        "fall_count": 9,
+        "fund_flow": 905411835.9999996,
+        "hang_ye_long_tou_stocks_count": 0,
+        "has_north": 1,
+        "hide": false,
+        "id": 43704990,
+        "industrial_chains": [],
+        "is_fav": false,
+        "name": "新冠药物",
+        "need_pay": false,
+        "premium_desc": "",
+        "question_answers": [
+            {
+                "html_answer": "\u003cp\u003e新冠肺炎疫情是近百年来影响范围最广的全球性流行疾病，已给全球经济带来了严峻的考验。然而，随着病毒变异株的不断出现，未来新冠肺炎疫情长期存在的可能性不断增大，这一背景下新冠药物的开发显得尤为重要，在病毒变异株不断出现的当下，新冠药物已成为疫苗防护之后新冠疫情防控的最后一道防线。\u003c/p\u003e\n\u003cp\u003e相比疫苗防护，新冠药物治疗是一个及时有效、能快速发挥抗病毒能力的治疗手段，在新冠肺炎的防治中，新冠药物治疗可与疫苗预防形成有效补充，两者缺一不可。\u003c/p\u003e\n\u003cp\u003e全球范围内，针对新冠药物的开发热度自疫情发生以来一直持续，目前已有多款不同类型的药物进入开发后期，如主要针对轻中症患者的新冠病毒中和抗体、主要针对重症患者的抗细胞因子受体/中和抗体、可针对轻中重症患者的小分子新冠药物（包括RNA聚合酶抑制剂、JAK抑制剂、AR拮抗剂、3CL蛋白酶抑制剂等）等。\u003c/p\u003e\n\u003cp\u003e中和抗体使临床的新冠轻中症患者明显获益（降低住院或死亡率70%以上），新冠小分子口服药物在临床优效的同时，显著提升了患者的依从性并缓解了\u0026ldquo;医疗资源挤兑\u0026rdquo;，是\u0026ldquo;新冠疫情流感化\u0026rdquo;的重要驱动力。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://image.xuangubao.cn/Fo0Tq5M8m-dYE97ilrB1u-5Cr0Zr\" /\u003e\u003c/p\u003e",
+                "question": "板块介绍"
+            },
+            {
+                "html_answer": "\u003cp\u003e中和抗体（Neutralizing antibody）是一种用于防止细胞被某种抗原或感染原侵害而具有保护力的抗体。在新冠肺炎感染发病进程中，SARS-CoV-2可利用表面刺突蛋白（Spike 蛋白）的受体结合域（RBD）特异性识别并结合宿主细胞上的血管紧张素转化酶2受体（ACE2 受体），进入呼吸道上皮细胞。患者被感染后，其免疫系统将通过产生中和抗体来抗击病毒，这些中和抗体可通过结合RBD的表位阻断并抑制病毒结合ACE2受体，以达到中和病毒毒力、缓解疾病症状、降低感染者死亡率的效果。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://image.xuangubao.cn/FtNZ6WiBSCNILuOgxCraaoimpBC6\" /\u003e\u003c/p\u003e\n\u003cp\u003e由于人体在暴露于SARS-CoV-2感染后，自身免疫系统可能需要几天或几星期才能产生治疗性的中和抗体，因此通过自身产生的中和抗体抑制新冠肺炎进程难以实现理想的治疗效果。在这一背景下，国内外多家企业研发了新冠病毒中和抗体，其可实现大规模生产，通过直接向患者输注以起到更快的治疗效果。目前，全球范围内已有3款中和抗体或组合疗法处已获 FDA紧急使用授权，包括再生元的Casirivimab/Imdevimab联合疗法、礼来/君实生物合作开发的Bamlanivimab/Etesevimab联合疗法、葛兰素史克（GSK）/Vir Biotechnology 合作开发的 Sotrovimab。 在国内企业中，目前除了君实生物与礼来合作开发的Bamlanivimab/Etesevimab 联合疗法获FDA紧急使用授权外；腾盛博药的BRII-196/BRII-198 联合疗法的ACTIV-2三期临床研究已在美国、巴西、南非、墨西哥及阿根廷的研究中心完成846位受试者的入组工作；其他国内企业开发的中和抗体，如绿叶制药的LY\u0026ndash;CovMab、济民可信的JMB2002、复宏汉霖的HLX70尚在早期临床阶段。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://image.xuangubao.cn/FuC22cF2Uph2Q3pQG9wYCT6ulPRK\" /\u003e\u003c/p\u003e",
+                "question": "中和抗体：主要针对轻中症患者"
+            },
+            {
+                "html_answer": "\u003cp\u003e细胞因子是由免疫细胞及组织细胞分泌的，在细胞间发挥调控作用的一类小分子可溶性蛋白质，其主要包括干扰素(interferon，IFN)、白介素（interleukin，IL）、趋化因子、集落刺激因子（Colony Stimulating Factor，CSF）、肿瘤坏死因子(tumor necrosis factors，TNF)等。细胞因子以自分泌、旁分泌或内分泌形式发挥作用，可通过结合相应受体调节细胞生长分化，调控免疫应答，参与炎症等多种疾病的发生、发展。细胞因子风暴又称为细胞因子瀑布级联，或高细胞因子血症。当机体免疫系统受到感染(细菌、病毒、真菌等)或非感染(药物、自身免疫性疾病等)因素的影响时，机体先后启动非特异性免疫应答与特异性免疫应答，体内多种免疫细胞如巨噬细胞、中性粒细胞、自然杀伤细胞、树突状细胞等可以释放多种细胞因子，如 IL-1、IL-2、IL-6、IL-8、IL-10、IL-12、趋化因子、粒细胞集落刺激因子（G-CSF）、粒细胞巨噬细胞集落刺激因子（GM-CSF）、IFN-\u0026gamma;、TNF-\u0026alpha;等。这些细胞因子与中性粒细胞、巨噬细胞及多种免疫细胞之间通过特定的正反馈机制，使多种细胞因子及相关免疫细胞在组织、器官中异常增多、聚集，形成细胞因子风暴，最终导致单器官或多器官损伤甚至功能衰竭。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://image.xuangubao.cn/FiKZt5G5kj_M5B41nQfQeNIhQCFp\" /\u003e\u003c/p\u003e\n\u003cp\u003e研究表明，SARS-CoV-2 可诱发促炎细胞因子激增，即细胞因子风暴，从而引发严重的肺部炎症，乃至多器官衰竭危及患者生命。因此直接针对重症患者炎症因子，解决患者细胞因子风暴是治疗重症新冠肺炎的有效手段之一，这一治疗过程主要通过抗细胞因子抗体或抗细胞因子受体抗体来实现 \u0026nbsp;目前，全球范围内已有多款针对新冠肺炎的抗细胞因子中和抗体或抗细胞因子受体抗体进入开发后期阶段，比较有代表性的有罗氏的托珠单抗以及天境生物的 Plonmarlimab（又称为TJM2）。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://image.xuangubao.cn/FlHnEybq83KDUz-Xa6GmnsiyPZa5\" /\u003e\u003c/p\u003e",
+                "question": "抗细胞因子中和/受体抗体：主要针对重症患者"
+            },
+            {
+                "html_answer": "\u003cp\u003e小分子药物相对大分子生物药有其独有的优势：（1）小分子药物作用靶点可分布在细胞内或细胞外，而大分子生物药一般只能作用在细胞表面；（2）大多数小分子药物可以口服给药，而正常情况下大分子生物药只能注射给药；（3）小分子药物制备工艺相对简单成熟，产量远远高于大分子生物药，成本也较大分子低；（4）小分子药物储存、运输环境条件要求较低，方便储存或运输；（5）部分小分子药物可通过血脑屏障而大分子生物药几乎不可能。在全球疫情不断反复的如今，小分子新冠药物的开发具备积极的意义。生产规模方面，小分子新冠药物制备工艺相对简单成熟，可快速实现大规模批量生产以满足疫情爆发导致的感染数量剧增的患者人群；成本方面，小分子新冠药物成本较低，可提升新冠肺炎患者用药可及性；用药便利性方面，小分子新冠药物大多为口服用药，患者依存性大大提升；储存运输方面，小分子新冠药物对环境要求较低，可实现快速大规模地分发。目前，全球范围内共有6款小分子新冠药物处在开发后期阶段，其中国内1款，国外5款。上述药物按其作用机制不同可分为4大类：（1）RNA聚合酶抑制剂，包括吉利德科学的瑞德西韦、默沙东/ Ridgeback Biotherapeutics的MK-4482、罗氏/Atea Pharmaceuticals的AT-527；（2）JAK 抑制剂，包括礼来/ Incyte的巴瑞替尼；（3）AR拮抗剂，包括开拓药业的普克鲁胺；（4）3CL蛋白酶抑制剂，包括辉瑞的PF-07321332。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://image.xuangubao.cn/FkNxIZPrZf7Z9ufOkCuno8D3Ev-_\" /\u003e\u003c/p\u003e\n\u003cp\u003e新冠小分子药物研发火热，国内多家公司身处第一梯队。君实生物的VV116已取得乌兹别克斯坦的EUA，并将于2022年H1启动全球II/III 期临床，进度保持领先；2）真实生物的阿兹夫定正处于全球临床III期，预计2022年H1读出数据；3）开拓药业的AR抑制剂普克鲁胺修正II期临床设计后，同样有望与2022年H1披露更新数据。整体而言，中国药企在新冠小分子研发的\u0026ldquo;军备竞赛\u0026rdquo;中，行动积极，进度领先。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://image.xuangubao.cn/Fklj1nlxtt45GaQ1VLn7WbQbwYov\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+                "question": "小分子新冠药物：多种不同机制，可针对轻中、重症患者"
+            }
+        ],
+        "rise_count": 21,
+        "seo_desc": "",
+        "seo_keywords": "",
+        "seo_title": "",
+        "stay_count": 1,
+        "stocks": [
+            {
+                "core_flag": 100,
+                "coreleader": 1,
+                "desc": "公司研发生产的医药中间体卡龙酸酐月产规模为20吨；公司卡龙酸酐及其衍生产品的客户主要为国内客户及印度客户，无法确定公司卡龙酸酐及其衍生产品是否间接供给辉瑞公司",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwNzAxLTE",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "300261.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "21年12月，控股子公司福建广生中霖生物科技有限公司与上海药明康德新药开发有限公司就用于新冠病毒感染治疗的一类新药研发项目口服小分子3-CL（3C-like）蛋白酶抑制剂签订《合作开发合同书》",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwNjgzLTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    },
+                    {
+                        "plate_id": 64731897,
+                        "plate_name": "新冠检测"
+                    }
+                ],
+                "symbol": "300436.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "公司向客户供应莫匹拉韦、瑞德西韦的核心中间体，可以用于治疗新冠肺炎；前述相关中间体产品目前收入占比较小",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMDk5LTE",
+                "is_new": false,
+                "need_pay": false,
+                "north": 1,
+                "north_in": -0.06,
+                "north_share": 0.19,
+                "symbol": "300497.SZ"
+            },
+            {
+                "desc": "公司开发的口服核苷类抗新冠病毒药物VV116，已向中国和乌兹别斯坦递交IND申请，其中在乌兹别克斯坦的IND申请已获得批准",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwMDY3LTA",
+                "is_new": false,
+                "need_pay": false,
+                "north": 1,
+                "north_in": -0.06,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "688180.SS"
+            },
+            {
+                "core_flag": 100,
+                "desc": "2月25日，盐野义制药公司研发的新冠口服药向日本厚生劳动省正式递交临床治疗认可申请；22年2月披露，下属子公司与盐野义制药公司有多年的良好合作关系，盐野义曾为公司下属上海益威实业有限公司的重要股东，目前公司与盐野义下属长澳药业科技集团有限公司正开展紧密合作",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxODc5LTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "002435.SZ"
+            },
+            {
+                "core_flag": 100,
+                "coreleader": 2,
+                "desc": "公司治疗新冠肺炎药物BDB001在海外多中心临床有序推进中",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwNzA0LTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "300204.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "22年3月，与辉瑞公司签订协议，将在协议期内（2022年度）负责辉瑞公司新冠病毒治疗药物PAXLOVID在中国大陆市场的商业运营",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNzg3LTE",
+                "is_new": false,
+                "need_pay": false,
+                "north": 1,
+                "north_in": -0.04,
+                "north_share": 0.9,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "600056.SS"
+            },
+            {
+                "core_flag": 100,
+                "desc": "22年3月披露，公司正在推进国际MPP授权申请，但目前尚未取得授权。公司产品涉及中间体SM1、SM2，均已实现商业化生产，分别完成5吨、10吨交付",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxODYwLTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "603538.SS"
+            },
+            {
+                "desc": "合作开发的SHEN26是一款新型冠状病毒聚合酶(RdRp)抑制剂，可以抑制病毒RdRp酶活性，终止病毒复制，达到抗病毒的效果，根据实验室数据，SHEN26对新冠病毒变异毒株奥密克戎在体外细胞的抗病毒活性上表现出理想的结果",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNzE5LTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "688136.SS"
+            },
+            {
+                "desc": "游资炒作；公司的医药中间体产品有羟基氯喹侧链、氯喹侧链、二噁烷（二氧六环）等，网传二氧六环是核苷酸类新冠口服药等溶解剂",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNzYzLTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "000953.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "21年10月披露，厦门蔚嘉已具备新冠特效药莫那比拉维的原料药及中间体的生产技术",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMTA5LTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "300683.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "公司产品尿苷是生产EIDD-2801的原料，EIDD-2801是生产新冠口服药Molnupiravir的原料，但尿苷产品公司非唯一生产商；公司不在默沙东的合格供应商名录系统中，未向默沙东供应尿苷产品",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwMDY4LTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "301089.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "获批准可生产及供应默沙东口服抗新冠病毒药物Molnupiravir仿制药",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMTMzLTA",
+                "is_new": false,
+                "need_pay": false,
+                "north": 1,
+                "north_in": 0.41,
+                "north_share": 2.49,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "600196.SS"
+            },
+            {
+                "core_flag": 100,
+                "desc": "游资炒作；2月25日，盐野义制药公司研发的新冠口服药向日本厚生劳动省正式递交临床治疗认可申请；中国平安旗下平安人寿于2020年3月战略入股盐野义；有研究认为北大医药目前是平安健康旗下唯一上市平台，有望独享中国区销售权",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxODc4LTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 25638417,
+                        "plate_name": "医药"
+                    },
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "000788.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "22年3月5日，《中成药防治新型冠状病毒肺炎专家共识》正式在《中国中西医结合杂志》网络首发，双清合剂被推荐用于COVID-19轻型治疗用药。公司生产双清合剂",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxODYxLTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "002393.SZ"
+            },
+            {
+                "desc": "参股公司龙泽制药（持股4.76%）获批准可生产及供应默沙东口服抗新冠病毒药物Molnupiravir仿制药",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMTMyLTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "688488.SS"
+            },
+            {
+                "desc": "获批准可生产及供应默沙东口服抗新冠病毒药物Molnupiravir仿制药",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMTMxLTA",
+                "is_new": false,
+                "need_pay": false,
+                "north": 1,
+                "north_in": 0.12,
+                "symbol": "688166.SS"
+            },
+            {
+                "core_flag": 100,
+                "desc": "22年3月披露，全资子公司内蒙古金达威药业有限公司年产50吨新冠药物帕罗韦德中间体P2改扩建项目目前已取得当地发改委的备案告知书",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNzY0LTA",
+                "is_new": false,
+                "need_pay": false,
+                "north": 1,
+                "north_in": -0.01,
+                "symbol": "002626.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "22年2月，公司抗新冠药奈玛特韦原料药及其关键中间体项目获备案",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNTIyLTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "300584.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "21年12月披露，辉瑞研发的新冠防治口服药如果上市，进入了中国市场，在湖南有配送权，公司作为湖南的主配送合作方可以拿到销售资格",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNzg1LTA",
+                "is_nearly_new": 1,
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 35716402,
+                        "plate_name": "辅助生殖"
+                    },
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "301126.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "富士胶片在美启动Avigan（法正拉韦）治疗新冠临床试验，公司是法匹拉韦国内唯一生产厂家",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwNzAzLTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "600267.SS"
+            },
+            {
+                "core_flag": 100,
+                "desc": "公司从2015年开始成为默沙东的CDMO供应商，目前正在向默沙东提供莫努匹拉韦的中间体",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwMTA2LTE",
+                "is_new": false,
+                "need_pay": false,
+                "north": 1,
+                "north_in": 0.12,
+                "north_share": 0.85,
+                "symbol": "300702.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "官网披露，适应症为新冠病毒口服液的Nirmatrelvir+利托那韦片，目前处于小试阶段",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNzg2LTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "605116.SS"
+            },
+            {
+                "desc": "公司注射用抗新冠病毒在研新药FB2001，已在美国开展临床I期试验，并已在中国获批开展临床I期桥接试验",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwNzAyLTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "688221.SS"
+            },
+            {
+                "desc": "全球主要左旋肉碱供应商之一；主营关键医药中间体CDMO服务，并从事左旋肉碱系列产品的研发、生产和销售；同时也是巴瑞替尼原料药提供商，从科学机理上看，巴瑞替尼对新冠重症有治疗效果\n",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMjM4LTA",
+                "is_nearly_new": 1,
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "301201.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "子公司上海北卡生产的卡隆酸酐销售量较少，目前上海北卡已不持有“蒈醛酸内酯、卡龙酸、卡龙酸酐及其关键中间体的新合成方法”的生产专利",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMDAwLTE",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "600668.SS"
+            },
+            {
+                "core_flag": 100,
+                "desc": "全资子公司四川久凌制药是目前国内最大的抗HIV病毒药物利托那韦的原料药生产企业，利托那韦是辉瑞新冠口服特效药的重要原料药",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwNzExLTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "600866.SS"
+            },
+            {
+                "core_flag": 100,
+                "desc": "控股子公司森萱医药（持股72.31%）是国内利托那韦中间体主要生产供应商，利托那韦是辉瑞新冠口服特效药的重要原料药",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwNzEwLTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "002349.SZ"
+            },
+            {
+                "core_flag": 100,
+                "coreleader": 3,
+                "desc": "公司与中国科学院微生物研究所在多肽新冠药物的技术交流与合作，双方拟合作开发新型冠状病毒多肽鼻喷剂药物，已完成针对新冠病毒奥密克戎变异株假病毒的中和实验",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcwODU4LTA",
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "300199.SZ"
+            },
+            {
+                "core_flag": 100,
+                "desc": "22年2月，控股子公司受托生产抗新冠药品MOLNUPIVIR仿制药的物质实体",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxNTIzLTA",
+                "is_new": false,
+                "need_pay": false,
+                "surge_stock_related_plates": [
+                    {
+                        "plate_id": 61977294,
+                        "plate_name": "新冠病毒防治"
+                    }
+                ],
+                "symbol": "300254.SZ"
+            },
+            {
+                "desc": "公司与君实生物合作开发的9MW0113是一款公司基于与格物智康共同申请的专利开发的创新单克隆抗体，治疗用生物制品1类，已提交抗体分子及用途专利申请，对新型冠状病毒具有中和作用",
+                "desc_url": "https://bao-cdn.xuangubao.cn/ssetStockDescImg?uri=MTcxMDg3LTA",
+                "is_nearly_new": 1,
+                "is_new": false,
+                "need_pay": false,
+                "symbol": "688062.SS"
+            }
+        ],
+        "sub_sets": null,
+        "subject_id": 1889,
+        "update_name": "施懿",
+        "whether_display_plate_stock_portfolio": false
+    }
+}
