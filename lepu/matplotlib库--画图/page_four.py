@@ -21,29 +21,33 @@ def draw_st_line(name,y_list,num_points=1440,scale_number=24,fig_size=(10,5)) ->
     x = np.array(x_axis)
     A = np.array(y_list)
     # 长*宽,单位为英寸
-    plt.figure(figsize=(525/my_dpi, 125/my_dpi), dpi=my_dpi)
+    # plt.figure(figsize=(525/my_dpi, 125/my_dpi), dpi=my_dpi)
+    plt.figure(figsize=fig_size)
     plt.grid(linestyle = "--")      #设置背景网格线为虚线
     ax = plt.gca() # 获取当前的axes
     # ax.spines['left'].set_visible(False)
-    ax.spines['top'].set_color('#ffffff')
-    ax.spines['bottom'].set_color('#ffffff')
-    ax.spines['left'].set_color('#ffffff')
-    ax.spines['right'].set_color('#ffffff')
-    ax.tick_params(which='both', width=0)
-    ax.tick_params(which='major', length=0)
-    ax.tick_params(which='minor', length=0, color='r')
+    # ax.spines['top'].set_color('#ffffff')
+    # ax.spines['bottom'].set_color('#ffffff')
+    # ax.spines['left'].set_color('#ffffff')
+    # ax.spines['right'].set_color('#ffffff')
+    # ax.tick_params(which='both', width=0)
+    # ax.tick_params(which='major', length=0)
+    # ax.tick_params(which='minor', length=0, color='r')
 
 
-    plt.plot(x,A,color="black",linewidth=1.5)
-    group_labels = ['' for _ in range(0,scale_number)]
-    plt.xticks(range(1,num_points+1,int(num_points/scale_number)),labels=group_labels) 
+    plt.plot(x,A,color="black",linewidth=1)
+    # group_labels = ['' for _ in range(0,scale_number)]
+    # plt.xticks(range(1,num_points+1,int(num_points/scale_number)),labels=group_labels) 
+    plt.xticks(range(1,num_points+1,int(num_points/scale_number))) 
     # plt.xticks(range(1,1441,60)) #默认字体大小为10
     y_group_labels = ['' for _ in range(0,4)]
-    plt.yticks(range(2,9,2),labels=y_group_labels) 
+    # plt.yticks(range(2,9,2),labels=y_group_labels) 
+    # plt.yticks(range(2,9,2)) 
 
-    plt.axis('off')
+    # plt.axis('off')
+    # plt.axis('off')
     plt.margins(0, 0)
-    plt.savefig(f'{current_path}/{name}_line_chart.svg',format='svg',pad_inches = 0, bbox_inches='tight',dpi=my_dpi)  #建议保存为svg格式，再用inkscape转为矢量图emf后插入word中
+    # plt.savefig(f'{current_path}/{name}_line_chart.svg',format='svg',pad_inches = 0, bbox_inches='tight',dpi=my_dpi)  #建议保存为svg格式，再用inkscape转为矢量图emf后插入word中
     plt.show()
 
 
@@ -100,13 +104,13 @@ for obj in json_data["hrvList"]:
    bpm.append(obj["hr"])
    sdnn.append(obj["sdnn"])
 draw_st_line("hr",bpm,num_points=24)
-draw_st_line("sdnn",sdnn,num_points=24)
+# draw_st_line("sdnn",sdnn,num_points=24)
 
-for obj in json_data["ecgHourEventList"]:
-   room_num.append(obj["VentricularBeatCount"])
-   room_up_num.append(obj["AtrialBeatCount"])
-draw_st_line("VentricularBeatCount",room_num,num_points=24)
-draw_st_line("AtrialBeatCount",room_up_num,num_points=24)
+# for obj in json_data["ecgHourEventList"]:
+#    room_num.append(obj["VentricularBeatCount"])
+#    room_up_num.append(obj["AtrialBeatCount"])
+# draw_st_line("VentricularBeatCount",room_num,num_points=24)
+# draw_st_line("AtrialBeatCount",room_up_num,num_points=24)
 
 
 # 画小时心电图
