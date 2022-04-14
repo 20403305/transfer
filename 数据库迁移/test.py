@@ -38,7 +38,7 @@ if __name__ == '__main__':
         Students(name='小明', gender='1', class_id=1, score=10),
         Students(name='小黄', gender='2', class_id=1, score=20),
         Students(name='小花', gender='1', class_id=1, score=30),
-        Students(name='小军', gender='2', class_id=1, score=40),
+        Students(name='小军', gender='2', class_id=1, score=30),
         Students(name='小黑', gender='1', class_id=2, score=50),
         Students(name='小可', gender='2', class_id=2, score=60),
         Students(name='小吕', gender='2', class_id=2, score=70),
@@ -47,6 +47,11 @@ if __name__ == '__main__':
         Students(name='小李', gender='1', class_id=3, score=100),
         Students(name='新生', gender='1', class_id=5, score=88),
     ]
+
+    test_list =[]
+    for i in range(5):
+        test_list.append(Students(name=i,gender=i))
+    print(test_list) 
 
     classes_list_data = [
         Classes(name='一班'),
@@ -96,8 +101,16 @@ if __name__ == '__main__':
 
         print(a)
         print(b)
+        # 查询名字为一班的id
+        query_result3 = await Classes.get(name='一班').values('id')
+        # 查询一班中成绩为30的学生
+        query_result4 = await Students.filter(class_id=query_result3['id'], score=30).all()
+        print(query_result4)
 
         sql = get_schema_sql(Tortoise.get_connection("default"), safe=False)
         print(sql)
 
     run_async(init())
+
+
+
