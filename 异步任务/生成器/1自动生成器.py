@@ -24,6 +24,9 @@ get_num.send(None) # 值为10
 # 三：使用生成器,获取小于100的偶数
 gen_num_list = []
 # 值继续从12开始获取
+# 如想重新计算，可以关闭生成器，重新获取
+# get_num.close()
+# get_num = get_even()
 for x in get_num:
     if x < 100:
         gen_num_list.append(x)
