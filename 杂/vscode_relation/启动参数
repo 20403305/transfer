@@ -1,0 +1,43 @@
+https://code.visualstudio.com/docs/python/debugging
+
+左侧栏选择调试按钮：
+点击创建launch.json文件，选择python
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            // 启动时带请求参数args[0],args[1]...
+            "args": ["consume","{\"name\":\"Auckland\"}"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
+-------------
+在launch.json文件中添加以下内容：
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Launch",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "stopOnEntry": true,
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}"
+            },
+            "args": [
+                "${file}"
+            ]
+        }
+    ]
+}
