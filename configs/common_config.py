@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 from typing import Optional
-from configs.chat_base_config.chat_config import ChatInfoTemplate
+from configs.chat_base_config.chat_config import FeiShuChatInfoTemplate, TuLingChatInfoTemplate
 
 from pydantic import AnyHttpUrl, BaseSettings
 
@@ -52,8 +52,13 @@ class Settings(BaseSettings):
     REDIS_PORT: int = 6379
 
     # 信息交互自动化相关配置
-    CHAT_BASE_SETTINGS = ChatInfoTemplate()
-
+    # 1.图灵聊天机器人
+    TULING_CHAT_BASE_SETTINGS = TuLingChatInfoTemplate()
+    # 2.飞书机群聊器人
+    FEISHU_CHAT_BASE_SETTINGS = FeiShuChatInfoTemplate()
+    # 3.Finnhub股票查询 apikey(token)
+    FINNHUB_APIKEY :str = None 
+    
 
     MAP = defaultdict(lambda: None)
     # MAP = defaultdict(dict)
