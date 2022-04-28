@@ -1,0 +1,23 @@
+
+
+
+# 直接将当前容器导出成tar文件，再通过import导入成新镜像，再创建容器
+# 例如：
+docker export 容器ID > my_centos7_container.tar
+docker import  my_centos7_container.tar centos_test2/copy:v1
+
+# 先将当前的容器打包成镜像（包含镜像信息）放在本地，再通过导出镜像的方式导出
+docker commit -a "author_name" -m "my centos7" 容器ID  centos7:v1
+docker images
+docker save -o(output) centos7_images.tar centos:centos7
+docker load -i(input) centos7_images.tar
+docker tag IMAGE ID name:version
+
+
+docker run -itd --name centos-test centos:centos7
+docker run -itd -v /sharefiles/:/home/sharefiles --name centos-test centos_test2/copy:v1 /bin/bash
+docker run -itd(daemon) -p(指定port) 5000(本地):5000(容器) 
+--name(容器取名) mycentos_test2 -e(env) TZ(控制时区)=Asia/Shanghai 
+-v(挂载) /home/centos/data(本地):/data(容器) 镜像名称:镜像版本
+
+

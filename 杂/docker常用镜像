@@ -1,0 +1,13 @@
+
+
+
+docker pull mysql:latest
+docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
+docker exec -it mysql-test /bin/bash
+mysql -u root -p
+
+docker pull redis:latest
+
+docker run -itd --name redis-test -p 6379:6379 redis
+docker exec -it redis-test /bin/bash
+redis-cli

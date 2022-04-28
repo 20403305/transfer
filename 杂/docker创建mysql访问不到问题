@@ -1,0 +1,16 @@
+
+
+docker pull mysql:latest
+docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
+连接数据库失败
+OperationalError('(MySQLdb._exceptions.OperationalError) (2059, "Authentication plugin \'caching_sha2_password\' cannot be loaded: /usr/lib64/mysql/plugin/caching_sha2_password.so: cannot open shared object file: No such file or directory")')
+
+mysql -uroot -p
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
+flush privileges;
+
+可参考
+https://blog.csdn.net/github_38336924/article/details/102524152
+https://www.cnblogs.com/PatrickLiu/p/9626558.html
+https://blog.csdn.net/weixin_40845165/article/details/84076691
+

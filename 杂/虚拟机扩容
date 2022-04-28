@@ -1,0 +1,15 @@
+参考连接：https://blog.csdn.net/daemon_2017/article/details/80660372
+
+先从vmware外部分配扩容空间
+再
+打开我的计算机Ubuntu，
+安装gparted
+打开终端，输入
+sudo apt-get install gparted
+然后
+sudo gparted
+
+查看是否有灰色的进度条，就是未被分配的空间
+选择一个其他的磁盘，点击上方工具栏，resize/move the selected partition（→右箭头）
+然后拉动有颜色进度条边缘，向右拉到满灰色的进度条，就是分配空间
+确认后，点击上方工具栏，apply all operation（✔勾符号）
