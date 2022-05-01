@@ -58,6 +58,7 @@ class Settings(BaseSettings):
     FEISHU_CHAT_BASE_SETTINGS = FeiShuChatInfoTemplate()
     # 3.Finnhub股票查询 apikey(token)
     FINNHUB_APIKEY :str = None 
+    TUSHARE_API :str = None 
     
 
     MAP = defaultdict(lambda: None)

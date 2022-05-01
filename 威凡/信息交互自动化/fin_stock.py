@@ -9,11 +9,9 @@ sys.path.insert(
 
 from configs import settings
 
-api_key = settings.FINNHUB_APIKEY
-
 # Register new webhook for earnings
 r = requests.post(
-    f'https://finnhub.io/api/v1/webhook/add?token={api_key}',
+    f'https://finnhub.io/api/v1/webhook/add?token={settings.FINNHUB_APIKEY}',
     json={'event': 'earnings', 'symbol': 'AAPL'},
 )
 res = r.json()
@@ -21,13 +19,16 @@ print(res)
 
 webhook_id = res['id']
 # List webhook
-r = requests.get(f'https://finnhub.io/api/v1/webhook/list?token={api_key}')
+r = requests.get(
+    f'https://finnhub.io/api/v1/webhook/list?token={settings.FINNHUB_APIKEY}'
+)
 res = r.json()
 print(res)
 
 # Delete webhook
 r = requests.post(
-    f'https://finnhub.io/api/v1/webhook/delete?token={api_key}', json={'id': webhook_id}
+    f'https://finnhub.io/api/v1/webhook/delete?token={settings.FINNHUB_APIKEY}',
+    json={'id': webhook_id},
 )
 res = r.json()
 print(res)
