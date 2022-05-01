@@ -57,13 +57,13 @@ class LarkBot:
         print("消息发送成功")
 
 
-def main():
+def send_msg_to_feishu(send_content="我是一只高级鸽子！"):
 
     WEBHOOK_SECRET = settings.FEISHU_CHAT_BASE_SETTINGS.apiKey
 
     bot = LarkBot(secret=WEBHOOK_SECRET)
-    bot.send(content="我是一只高级鸽子！")
+    bot.send(content=send_content)
 
 
 if __name__ == '__main__':
-    main()
+    send_msg_to_feishu()
