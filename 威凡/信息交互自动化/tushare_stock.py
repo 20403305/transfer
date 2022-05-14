@@ -9,5 +9,5 @@ import tushare as ts
 # 如果上一步骤ts.set_token('your token')无效或不想保存token到本地，也可以在初始化接口里直接设置token:
 # pro = ts.pro_api(settings.TUSHARE_API)
 # pro = ts.pro_api()
-df = ts.get_hist_data('300003')  # 一次性获取全部日k线数据
+df = ts.get_hist_data('301027')  # 一次性获取全部日k线数据
 print(df)
