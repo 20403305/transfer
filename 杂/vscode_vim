@@ -1,0 +1,493 @@
+{
+    // 在「设置」界面的右上角3个图标中的第一个打开 settings.json 配置文件
+    "workbench.colorTheme": "One Dark Pro",
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-a>": true,
+        // "<C-v>": false,
+        "<C-x>": false,
+        "<C-f>": false,
+        "<C-h>": false,
+        "<C-b>": false,
+        // "<C-k>": false
+    },
+    // 设置leader键为空格键
+    "vim.leader": "<space>",
+    "vim.hlsearch": true,
+    // 插入模式
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "commands": [
+                // "selectNextSuggestion"
+                "selectPrevSuggestion"
+            ]
+        }
+    ],
+    // vim命令模式
+    "vim.normalModeKeyBindings": [],
+    // normal 正常模式映射
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // 保存当前文件
+        {
+            "before": [
+                "leader",
+                "w",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        },
+        // 退出当前文件
+        {
+            "before": [
+                "leader",
+                "q",
+                //         "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor",
+            ]
+        },
+        // 保存并退出当前文件
+        {
+            "before": [
+                "leader",
+                "w",
+                "q"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        // 移到行首H,j 移到行尾L
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "m",
+                "e",
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "m",
+                "e",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "leader"
+            ],
+            "after": [
+                "/"
+            ]
+        },
+        {
+            "before": [
+                "1",
+            ],
+            "after": [
+                "m",
+                "e",
+                "<C-i>",
+            ]
+            // "after": [
+            //     "m",
+            //     "e",
+            // ],
+            // "commands": [
+            //     "workbench.action.navigateForward",
+            // ]
+        },
+        {
+            "before": [
+                "2",
+            ],
+            "after": [
+                "m",
+                "e",
+                "<C-o>",
+            ]
+            // "after": [
+            //     "m",
+            //     "e",
+            // ],
+            // "commands": [
+            //     "workbench.action.navigateBack",
+            // ]
+        },
+        {
+            "before": [
+                "3",
+            ],
+            "after": [
+                "m",
+                "e",
+                "Esc",
+                "1",
+                "o",
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "4",
+            ],
+            "commands": [
+                "editor.action.revealDefinition",
+            ]
+            // "commands": [
+            //     "editor.foldAll",
+            // ]
+        },
+        {
+            "before": [
+                "Enter",
+            ],
+            "after": [
+                "Esc",
+                "1",
+                "o",
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "<C-c>",
+            ],
+            "after": [
+                "m",
+                "e",
+                "\"",
+                "+",
+                "y",
+                "y",
+            ]
+        },
+        {
+            "before": [
+                "<C-v>",
+            ],
+            "after": [
+                "m",
+                "e",
+                "\"",
+                "+",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "o",
+                "Esc",
+                "\"",
+                "+",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                "<C-a>",
+            ],
+            "after": [
+                "g",
+                "g",
+                "V",
+                "G"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "c",
+            ],
+            "after": [
+                "*",
+                "v",
+                "e",
+                "\"",
+                "*",
+                "y",
+                "y",
+            ]
+        },
+        {
+            "before": [
+                "<C-j>",
+            ],
+            "after": [
+                "<C-f>",
+            ]
+        },
+        {
+            "before": [
+                "<C-k>",
+            ],
+            "after": [
+                "<C-b>",
+            ]
+        },
+        {
+            "before": [
+                "q",
+                "q"
+            ],
+            "after": [
+                "'",
+                "'"
+            ]
+        },
+        {
+            "before": [
+                "q"
+            ],
+            "after": [
+                "'"
+            ]
+        },
+        {
+            "before": [
+                "w"
+            ],
+            "after": [
+                "m"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "n",
+            ],
+            "after": [
+                ":",
+                "n",
+                "e",
+                "w",
+                "<CR>",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "a",
+            ],
+            "commands": [
+                "workbench.action.focusActiveEditorGroup",
+            ],
+            "after": [
+                ":",
+                "s",
+                "p",
+                "<CR>",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s",
+            ],
+            "commands": [
+                "workbench.action.focusActiveEditorGroup",
+            ],
+            "after": [
+                ":",
+                "v",
+                "s",
+                "<CR>",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "b",
+            ],
+            "after": [
+                "m",
+                "e",
+            ],
+            "commands": [
+                "workbench.action.navigateBack",
+            ]
+            // "after": [
+            //     "m",
+            //     "e",
+            //     "<C-o>",
+            // ]
+        },
+        {
+            "before": [
+                "leader",
+                "f",
+            ],
+            "after": [
+                "m",
+                "e",
+            ],
+            "commands": [
+                "workbench.action.navigateForward",
+            ]
+            // "after": [
+            //     "m",
+            //     "e",
+            //     "<C-i>",
+            // ]
+        },
+    ],
+    // 可视化模式
+    "vim.visualModeKeyBindingsNonRecursive": [
+        // 防止和鼠标误拉进入可视化模式影响到normal模式 --begin
+        {
+            "before": [
+                "1"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "2"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "3"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "i"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "a"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "o"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        // 防止和鼠标误拉进入可视化模式影响到normal模式 --over
+
+        {
+            "before": [
+                "H"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "after": [
+                "/"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "after": [
+                "$",
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "<C-c>",
+            ],
+            "after": [
+                "\"",
+                "+",
+                "y",
+                "y",
+            ]
+        },
+        {
+            "before": [
+                "<C-v>",
+            ],
+            "after": [
+                "\"",
+                "+",
+                "p"
+            ]
+        },
+        //         选择： 
+        // 选中{}中间的内容,不包括{}
+        // va{ 选中{}中间内容，包括{}
+        // 选中()中间内容
+        // vi< 选中<>中间内容
+        // vi[ 选中[]中间内容
+        // vit 选中中间的内容
+        // vi” 选中”"中间内容
+        // vi’ 选中”中间的内容、
+        // vis 选中一个句子
+        // vib 选中一个block
+        // viw 选中一个单词
+        // vip 选中一个段落
+        // 双击v选中当前的单词
+        {
+            "before": [
+                "v"
+            ],
+            "after": [
+                "i",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                "x"
+            ],
+            "after": [
+                "x",
+                "h",
+            ]
+        },
+    ],
+    "vim.commandLineModeKeyBindings": [],
+    "vim.digraphs": {},
+}
