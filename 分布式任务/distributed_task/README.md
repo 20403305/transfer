@@ -17,7 +17,10 @@ A:  https://blog.csdn.net/showgea/article/details/109342664
     https://www.cnblogs.com/hixiaowei/p/14309756.html
 
 修改任务逻辑后，celery自动重新加载(pip install watchdog)
+ worker监测
  watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- celery -A tasks worker --concurrency=1 --loglevel=info -P eventlet
+beat监测
+watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- celery -A tasks beat  --loglevel=info
 
  https://www.distributedpython.com/2019/04/23/celery-reload/#:~:text=Unfortunately%2C%20Celery%20does%20not%20suport%20such%20a%20reload,Which%20only%20added%20to%20the%20frustration%20and%20confusion.
 
