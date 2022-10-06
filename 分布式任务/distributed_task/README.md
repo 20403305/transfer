@@ -11,9 +11,15 @@ Celery 是一个由 Python 编写的简单、灵活、可靠的用来处理大�
 Celery 专注于实时任务处理，支持任务调度。
 说白了，它是一个分布式队列的管理工具，我们可以用 Celery 提供的接口快速实现并管理一个分布式的任务队列。
 
+window 安装celery 遇到的问题
+1 not enough values to unpack (expected 3, got 0)
+  https://blog.csdn.net/showgea/article/details/109342664
+  https://www.cnblogs.com/hixiaowei/p/14309756.html
+
 
 # 开启celery worker监测并执行实时任务
 celery -A tasks worker --loglevel=info
+celery -A tasks worker --loglevel=info -P eventlet(window版需安装 pip install eventlet)
 # 开启celery beat监测并执行定时任务
 celery -A tasks beat --loglevel=info
 # 使用celery的flower控制台，查看存贮在redis中的celery任务队列(需安装flower)
