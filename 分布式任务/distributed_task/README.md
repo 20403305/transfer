@@ -12,9 +12,16 @@ Celery 专注于实时任务处理，支持任务调度。
 说白了，它是一个分布式队列的管理工具，我们可以用 Celery 提供的接口快速实现并管理一个分布式的任务队列。
 
 window 安装celery 遇到的问题
-1 not enough values to unpack (expected 3, got 0)
-  https://blog.csdn.net/showgea/article/details/109342664
-  https://www.cnblogs.com/hixiaowei/p/14309756.html
+Q:  not enough values to unpack (expected 3, got 0)
+A:  https://blog.csdn.net/showgea/article/details/109342664
+    https://www.cnblogs.com/hixiaowei/p/14309756.html
+
+修改任务逻辑后，celery自动重新加载(pip install watchdog)
+ watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- celery -A tasks worker --concurrency=1 --loglevel=info -P eventlet
+
+ https://www.distributedpython.com/2019/04/23/celery-reload/#:~:text=Unfortunately%2C%20Celery%20does%20not%20suport%20such%20a%20reload,Which%20only%20added%20to%20the%20frustration%20and%20confusion.
+
+ https://cloud.tencent.com/developer/ask/sof/710429
 
 
 # 开启celery worker监测并执行实时任务
@@ -26,6 +33,10 @@ celery -A tasks beat --loglevel=info
 celery -A tasks flower --loglevel=info
 
 
+# 查看celery的worker状态 （worker==node)
+celery -A tasks  status
+# 检查已经注册的task
+celery -A tasks inspect registered
 
 {}--------Rearq----------
 https://pypi.org/project/rearq/
