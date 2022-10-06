@@ -1,0 +1,25 @@
+参考链接： https://www.jianshu.com/p/5fc84838f816
+
+
+查看当前系统语言
+echo $LANG
+
+
+查看系统安装的语言包
+
+locale -a
+
+如果没有中文语言包，需要安装
+
+sudo apt-get install language-pack-zh-hans
+
+安装成功后，确认是否安装成功
+locale -a 
+sudo dpkg -l | grep language-pack-zh-hans
+
+设置系统语言环境
+// export 的方式只对当前终端生效
+export LANG="zh_CN.UTF-8"
+
+//  /etc/profile 文件中添加export LANG="zh_CN.UTF-8" 对所有用户生效
+vim /etc/profile
